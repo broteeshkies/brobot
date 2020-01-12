@@ -17,6 +17,11 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@broteeshkies/bluebird@^3.7.3":
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/@broteeshkies/bluebird/-/bluebird-3.7.3.tgz#d1189a5a541e676d4a4008c2db9334af0099681a"
+  integrity sha512-XH2x4RCkgFAn6ZKvuysKCrzmQvENSe1AMFmK543yE1wZOaE+P7eVMyI90/0qU/+j0HZ/fiyuW/KO7ZCfP5AOAw==
+
 "@lskjs/config@^0.35.103":
   version "0.35.103"
   resolved "https://registry.yarnpkg.com/@lskjs/config/-/config-0.35.103.tgz#7e27fa44e74bf148f9b8c932a39b89d41266f273"
@@ -926,7 +931,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@3.5.1, bluebird@^3.5.0, bluebird@^3.5.1:
+bluebird@^3.5.0, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
@@ -3510,8 +3515,9 @@ string_decoder@~1.0.0:
     buffer-shims "~1.0.0"
 
 stringstream@~0.0.4, stringstream@~0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.6.tgz#7880225b0d4ad10e30927d167a1d6f2fd3b33a72"
+  integrity sha512-87GEBAkegbBcweToUrdzf3eLhWNg06FJTebl4BVJz/JgWy8CvEr9dRtX5qWphiynMSQlxxi+QqN0z5T32SLlhA==
 
 strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
