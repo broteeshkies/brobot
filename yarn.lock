@@ -17,6 +17,11 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@broteeshkies/bluebird@^3.7.3":
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/@broteeshkies/bluebird/-/bluebird-3.7.3.tgz#d1189a5a541e676d4a4008c2db9334af0099681a"
+  integrity sha512-XH2x4RCkgFAn6ZKvuysKCrzmQvENSe1AMFmK543yE1wZOaE+P7eVMyI90/0qU/+j0HZ/fiyuW/KO7ZCfP5AOAw==
+
 "@lskjs/config@^0.35.103":
   version "0.35.103"
   resolved "https://registry.yarnpkg.com/@lskjs/config/-/config-0.35.103.tgz#7e27fa44e74bf148f9b8c932a39b89d41266f273"
@@ -926,7 +931,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@3.5.1, bluebird@^3.5.0, bluebird@^3.5.1:
+bluebird@^3.5.0, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
@@ -1684,13 +1689,10 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-extend@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.0.tgz#5a474353b9f3353ddd8176dfd37b91c83a46f1d4"
-
-extend@~3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
+extend@~3.0.0, extend@~3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
 extglob@^0.3.1:
   version "0.3.2"
