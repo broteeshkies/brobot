@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "8.3.4",
+    "@release-it/conventional-changelog": "1.1.0",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.3",
@@ -47,7 +48,8 @@
     "lint-staged": "9.5.0",
     "nodemon": "2.0.1",
     "prettier": "1.19.1",
-    "prettier-eslint": "9.0.1"
+    "prettier-eslint": "9.0.1",
+    "release-it": "12.4.3"
   },
   "scripts": {
     "start": "node index.js",
@@ -59,6 +61,7 @@
     "pre-push": "npm run format-check",
     "prettier": "prettier",
     "lint-staged": "lint-staged",
+    "release": "release-it",
     "build": "rm -rf build && mkdir build && cp package.json build/ && cp yarn.lock build/ && cp README.md build/ && babel src --out-dir build --source-maps inline --copy-files",
     "build2": "rm -rf build2 && mkdir build2 && cp package.json build2/ && cp yarn.lock build2/ && cp README.md build2/ && babel src --out-dir build2 --source-maps inline --copy-files",
     "dev": "nodemon --watch src --exec babel-node src/index.js",
