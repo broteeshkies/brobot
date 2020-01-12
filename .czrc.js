@@ -1,16 +1,16 @@
-const glob = require("glob");
+const glob = require('glob');
 
 const globMap = (pattern, fn) =>
-  glob
-    .sync(pattern)
-    .map(fn || (path => path))
-    .map(path => path.replace(/\/$/, ""));
+    glob
+        .sync(pattern)
+        .map(fn || (path => path))
+        .map(path => path.replace(/\/$/, ''));
 
 const exclude = variants => path => variants.every(variant => !path.includes(variant));
 
 module.exports = {
-  // prettier-ignore
-  types: [
+    // prettier-ignore
+    types: [
         { value: 'feat',     name: 'feat:     A new feature' },
         { value: 'fix',      name: 'fix:      A bug fix' },
         { value: 'docs',     name: 'docs:     Documentation only changes' },
@@ -28,6 +28,6 @@ module.exports = {
                                    '          (example scopes: gulp, broccoli, npm)',
         }
     ],
-  allowCustomScopes: true,
-  allowBreakingChanges: ["feat", "fix", "revert"],
+    allowCustomScopes: true,
+    allowBreakingChanges: ['feat', 'fix', 'revert'],
 };
